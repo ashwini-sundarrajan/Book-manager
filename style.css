@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.navbar {
+  background-color: #fd6569;
+  padding: 10px;
+}
+
+.container {
+  padding: 10px;
+}
+
+.book-container {
+  padding: 15px;
+  width: 20%;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.book-container h2 {
+  color: #fd6569;
+}
+
+.book-container button {
+  color: black;
+  background-color: #fd6569;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+}
+
+.add-button {
+  background-color: #fd6569;
+  color: black;
+  border-radius: 100%;
+  padding: 20px 30px;
+  font-size: 40px;
+  border: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.popup-overlay {
+  background-color: black;
+  opacity: 0.8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+
+.popup-box {
+  background-color: #fd6569;
+  width: 40%;
+  padding: 40px;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  z-index: 2;
+  display: none;
+}
+
+.popup-box input {
+  background: transparent;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+  border-bottom: 2px solid black;
+}
+
+.popup-box textarea {
+  background: transparent;
+  width: 100%;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.popup-box input::placeholder,
+.popup-box textarea::placeholder {
+  color: black;
+}
+
+.popup-box button {
+  background-color: black;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.popup-box input:focus,
+.popup-box textarea:focus {
+  outline: none;
+}
+
+
+.form-container {
+  width: 300px;
+  margin: 50px auto;
+  background: #fd6569;
+  padding: 30px;
+  border-radius: 10px;
+  
+}
+
+.form-container input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: rgb(15, 15, 15);
+}
+
+.form-container input::placeholder {
+  color: black;
+}
+
+.form-container input:focus {
+  outline: none;
+}
+
+.form-container a {
+  color: black;
+  text-decoration: underline;
+}
